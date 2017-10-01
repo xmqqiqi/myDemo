@@ -1,0 +1,18 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+
+.btn-area{
+  width:80%;
+  margin:0 auto;
+}
+.textContent{
+  width:90%;
+  min-height:400rpx;
+  margin:0 auto;
+  background:#fff;
+  text-align:center;
+  padding:10rpx;
+}
+.but{
+  margin:30rpx 0;
+}

@@ -1,0 +1,12 @@
+<import src="../../../common/header/header.wxml" />
+<import src="../../../common/footer/footer.wxml" />
+
+<view>
+  <template is="header" data="{{title: 'checkbox'}}" />
+
+  <view class="checkboxContent">
+    checkbox
+  </view>
+
+  <template is="footer" />
+</view>

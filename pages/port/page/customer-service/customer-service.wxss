@@ -1,0 +1,9 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+
+.page-body{
+  text-align:center;
+}
+.page-body-line{
+  margin:40rpx 0;
+}

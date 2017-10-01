@@ -1,0 +1,52 @@
+
+{
+  "pages":[
+    "pages/component/index",
+    "pages/component/page/view/view",
+    "pages/component/page/scroll-view/scroll-view",
+    "pages/component/page/swiper/swiper",
+    "pages/component/page/movable-view/movable-view",
+    "pages/component/page/cover-view/cover-view",
+    "pages/component/page/text/text",
+    "pages/component/page/icon/icon",
+    "pages/component/page/progress/progress",
+    "pages/component/page/rich-text/rich-text",
+    "pages/component/page/button/button",
+    "pages/component/page/checkbox/checkbox",
+    "pages/component/page/form/form",
+
+    "pages/port/index",
+    "pages/port/page/login/login",
+    "pages/port/page/userInfo/userInfo",
+    "pages/port/page/pay/pay",
+    "pages/port/page/sharing/sharing",
+    "pages/port/page/customer-service/customer-service",
+    "pages/port/page/template-message/template-message",
+    "pages/port/page/setTitle/setTitle",
+    "pages/port/page/titleLoading/titleLoading",
+    "pages/port/page/pageJump/pageJump",
+    "pages/port/page/pullDownRefresh/pullDownRefresh"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+ "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/component/index",
+        "text": "组件",
+        "iconPath": "images/img01.jpg",
+        "selectedIconPath": "images/img03.jpg"
+      },
+      {
+        "pagePath": "pages/port/index",
+        "text": "接口",
+        "iconPath": "images/img02.jpg",
+        "selectedIconPath": "images/img04.jpg"
+      }
+    ]
+  }
+}

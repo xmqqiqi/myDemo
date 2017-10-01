@@ -1,0 +1,17 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+
+.section{
+  width:80%;
+  margin:0 auto;
+  text-align:center;
+}
+
+.section__title{
+  font-size:14px;
+  padding:20rpx 0;
+}
+
+.btn-area{
+  margin:30rpx 0;
+}

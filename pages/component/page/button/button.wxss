@@ -1,0 +1,2 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";

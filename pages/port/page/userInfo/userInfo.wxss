@@ -1,0 +1,39 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+
+.page-body-info {
+  padding: 20rpx;
+  height: 230px;
+  background:#fff;
+  text-align:center;
+}
+.userinfo-avatar {
+  border-radius: 128rpx;
+  width: 128rpx;
+  height: 128rpx;
+  margin:0 auto;
+  display:block;
+}
+.userinfo-nickname {
+  margin-top: 20rpx;
+  font-size: 38rpx;
+  display:block;
+}
+.page-body{
+  width:90%;
+  margin:0 auto;
+}
+.page-body-title{
+  padding:20rpx 0 40rpx;
+}
+.page-body-text{
+  display:block;
+  line-height:80rpx;
+}
+.btn-area{
+  margin:40rpx 0;
+}
+.btn-area button:first-child{
+  margin:20rpx 0;
+}
+

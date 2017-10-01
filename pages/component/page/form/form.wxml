@@ -1,0 +1,12 @@
+<import src="../../../common/header/header.wxml" />
+<import src="../../../common/footer/footer.wxml" />
+
+<view>
+  <template is="header" data="{{title: 'form'}}" />
+
+  <view class="formContent">
+    form
+  </view>
+
+  <template is="footer" />
+</view>

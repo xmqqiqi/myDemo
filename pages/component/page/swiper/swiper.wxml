@@ -1,0 +1,45 @@
+<import src="../../../common/header/header.wxml" />
+<import src="../../../common/footer/footer.wxml" />
+
+<view>
+  <template is="header" data="{{title: 'swiper'}}"/>
+
+  <view class="swiperContent">
+    <swiper indicator-dots="{{indicatorDots}}"  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="blue" bindchange="swiperChange">
+       <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <view class="switch">
+      <view class="switch-item">
+        <text>指示点</text>
+        <switch checked="{{indicatorDots}}" bindchange="indicatorDotsChange"/>
+      </view>
+      <view class="switch-item">
+        <text>自动播放</text>
+        <switch checked="{{autoplay}}" bindchange="autoplayChange"/>
+      </view>
+    </view>
+
+    <view>
+      <view>
+        <text>幻灯片切换时长（ms）</text>
+        <text>{{duration}}</text>
+      </view>
+      <slider value="{{duration}}" min="500" max="2000" bindchange="durationCahnge"/>
+    </view>
+
+    <view>
+      <view>
+        <text>自动播放间隔时长（ms）</text>
+        <text>{{interval}}</text>
+      </view>
+      <slider value="{{interval}}" min="2000" max="10000" bindchange="intervalCahnge"/>
+    </view>
+  </view>
+  
+  <template is="footer" />
+</view>

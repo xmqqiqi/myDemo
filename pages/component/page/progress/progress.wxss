@@ -1,0 +1,17 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+.page-body{
+  width:90%;
+  margin:0 auto;
+}
+progress{
+  width: 100%;
+}
+.progress-box{
+  display: flex;
+  height: 50rpx;
+  margin-bottom: 60rpx;
+}
+.progress-cancel{
+  margin-left: 40rpx;
+}

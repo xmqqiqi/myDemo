@@ -1,0 +1,47 @@
+.index{
+  padding:20px 15px;
+}
+.index-hd{
+  text-align:center;
+  padding:20px 0 30px;
+}
+
+.index-hd image{
+  width:60rpx;
+  height:60rpx;
+}
+
+.index-hd view{
+  width:70%;
+  margin:auto;
+  font-size:12px;
+  color:rgba(0,0,0,.6);
+  line-height:40rpx;
+}
+
+.index-hd view{
+  width:70%;
+  margin:auto;
+  font-size:12px;
+  color:rgba(0,0,0,.6);
+  line-height:40rpx;
+}
+
+.index-m{
+  background-color:#fff;
+  margin-bottom:10px;
+  padding:0 15px;
+}
+
+.index-m-text{
+  padding:15px 0;
+}
+
+.index-m-children>navigator{
+  border-bottom:1px solid #eee;
+  padding:10px 0;
+}
+
+.index-m-children>navigator:last-child{
+  border-bottom:0;
+}

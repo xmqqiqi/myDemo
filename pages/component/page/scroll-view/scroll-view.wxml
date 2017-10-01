@@ -1,0 +1,45 @@
+<import src="../../../common/header/header.wxml"/>
+<import src="../../../common/footer/footer.wxml"/>
+
+<view>
+  <template is="header" data="{{title:'scroll-view'}}"/>
+
+  <view>
+    <view>
+      <view class="desc">
+        <view>Vertical Scroll</view>
+        <view>纵向滚动</view>
+      </view>
+      <scroll-view class="scroll-view" scroll-y style="height: 300rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+        <view id="green" class="scroll-view-item bc_green">A</view>
+        <view id="red" class="scroll-view-item bc_red">B</view>
+        <view id="yellow" class="scroll-view-item bc_yellow">C</view>
+      </scroll-view>
+      <view class="btn-area">
+        <view>
+          <button size="mini" bindtap="tap">click me to scroll into view </button>
+        </view>
+        <view>
+          <button size="mini" bindtap="tapMove">click me to scroll</button>
+        </view>
+      </view>
+    </view>
+
+    <view>
+      <view class="desc">
+        <view>Horizontal Scroll</view>
+        <view>横向滚动</view>
+      </view>
+
+      <scroll-view class="scroll-view_H" scroll-x style="width:80%;">
+        <view class="scroll-view-item_H bc_green">A</view>
+        <view class="scroll-view-item_H bc_red">B</view>
+        <view class="scroll-view-item_H bc_yellow">C</view>
+      </scroll-view>
+
+    </view>
+    
+  </view>
+
+  <template is="footer" />
+</view>

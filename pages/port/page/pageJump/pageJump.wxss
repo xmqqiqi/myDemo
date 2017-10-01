@@ -1,0 +1,10 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+
+.btn-area{
+  width:90%;
+  margin:0 auto;
+}
+.btn-area button{
+  margin:30rpx 0;
+}

@@ -1,0 +1,23 @@
+@import "../../../common/header/header.wxss";
+
+@import "../../../common/footer/footer.wxss";
+.flex-wrp{
+  margin: 60rpx auto 0;
+  display:flex;
+  width:600rpx;
+}
+.flex-item{
+  width: 200rpx;
+  height: 300rpx;
+  font-size: 26rpx;
+}
+
+.flex-item-V{
+  margin: 0 auto;
+  width: 300rpx;
+  height: 200rpx;
+}
+
+.viewContent{
+  text-align:center;
+}

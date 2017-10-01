@@ -1,0 +1,22 @@
+<import src="../../../common/header/header.wxml"/>
+<import src="../../../common/footer/footer.wxml"/>
+
+<view>
+  <template is="header" data="{{title:'text'}}"/>
+  
+  <view class="btn-area">
+    <view class="body-view">
+      <view class="textContent">
+        <text>{{text}}</text>
+      </view>
+      <view>
+         <button class="but" bindtap="add">add line</button>
+      </view>
+     <view>
+         <button class="but" bindtap="remove">remove line</button>
+     </view>
+    </view>
+  </view>
+
+  <template is="footer" />
+</view>

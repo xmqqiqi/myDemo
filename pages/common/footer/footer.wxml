@@ -1,0 +1,6 @@
+
+<template name="footer">
+  <navigator openType="switchTab" url="/pages/component/index">
+    <view class="footer">小程序示例</view>
+  </navigator>
+</template>

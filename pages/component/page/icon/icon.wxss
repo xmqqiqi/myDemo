@@ -1,0 +1,18 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+
+.iconContent{
+  font-size:14px;
+}
+.flex-wrp{
+  margin: 60rpx auto 0;
+  display:flex; 
+  width:90%;
+}
+.flex-item{
+  margin-right:40rpx;
+}
+.desc{
+  font-size:12px;
+  color:rgba(0,0,0,.5);
+}

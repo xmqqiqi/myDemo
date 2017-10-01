@@ -1,0 +1,32 @@
+<import src="../../../common/header/header.wxml" />
+<import src="../../../common/footer/footer.wxml" />
+
+<view>
+  <template is="header" data="{{title:'icon'}}" />
+
+  <view class="iconContent">
+    <block wx:for="{{list}}" wx:key="{{index}}">
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item">
+          <view wx:if="{{item.color}}"> 
+            <icon type="{{item.iconType}}" size="{{item.size}}" primary="{{item.primary}}" color="{{item.color}}"/>
+          </view>
+          <view wx:else>
+            <icon type="{{item.iconType}}" size="{{item.size}}" primary="{{item.primary}}" />
+          </view>
+        </view>
+        <view class="flex-item">
+          <view>
+            <text>{{item.text}}</text>
+          </view>
+          <view class="desc">
+            <text>{{item.desc}}</text>
+          </view>
+        </view>
+      </view>
+      
+    </block>
+  </view>
+
+  <template is="footer" />
+</view>

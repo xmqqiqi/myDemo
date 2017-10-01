@@ -1,0 +1,23 @@
+@import "../../../common/header/header.wxss";
+
+
+@import "../../../common/footer/footer.wxss";
+.swiperContent{
+  width:90%;
+  margin:0 auto;
+}
+
+.switch{
+  margin:40rpx;
+  border-top:1px solid #eee;
+}
+
+.switch-item{
+  padding:10rpx 30rpx;
+  border-bottom:1px solid #eee;
+  overflow: hidden;
+}
+
+.switch-item switch{
+  float:right;
+}

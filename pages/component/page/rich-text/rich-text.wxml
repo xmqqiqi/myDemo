@@ -1,0 +1,12 @@
+<import src="../../../common/header/header.wxml" />
+<import src="../../../common/footer/footer.wxml" />
+
+<view>
+  <template is="header" data="{{title: 'rich-text'}}" />
+
+  <view class="richTextContent">
+    <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+  </view>
+
+  <template is="footer" />
+</view>

@@ -1,0 +1,14 @@
+@import "../../../common/header/header.wxss";
+@import "../../../common/footer/footer.wxss";
+
+.page-body{
+  width:90%;
+  margin:0 auto;
+  text-align:center;
+}
+.page-body-info {
+  background-color: transparent;
+}
+.btn-area{
+  margin-top: 300rpx;
+}

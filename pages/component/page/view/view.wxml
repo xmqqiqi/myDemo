@@ -1,0 +1,30 @@
+<import src="../../../common/header/header.wxml" />
+<import src="../../../common/footer/footer.wxml" />
+
+<view>
+  <template is="header" data="{{title: 'view'}}" />
+
+  <view class="viewContent">
+    <view>
+      <text>flex-direction:row</text>
+      <text>横向布局</text>
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item bc_green">A</view>
+        <view class="flex-item bc_red">B</view>
+        <view class="flex-item bc_blue">C</view>
+      </view>
+    </view>
+    
+    <view>
+      <text>flex-direction:row</text>
+      <text>竖向布局</text>
+      <view class="flex-wrp" style="flex-direction:column;">
+        <view class="flex-item bc_green flex-item-V">A</view>
+        <view class="flex-item bc_red flex-item-V">B</view>
+        <view class="flex-item bc_blue flex-item-V">C</view>
+      </view>
+    </view>
+  </view>
+
+  <template is="footer" />
+</view>
